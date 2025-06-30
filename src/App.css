@@ -49,3 +49,21 @@
     background-position: center;
     background-size: cover;
 }
+
+.blogImage1{
+    background-image: url(./assets/images/blog-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogImage2{
+    background-image: url(./assets/images/blog-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogImage3{
+    background-image: url(./assets/images/blog-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

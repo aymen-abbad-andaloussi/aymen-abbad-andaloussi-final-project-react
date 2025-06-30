@@ -4,6 +4,7 @@ import CarouselleHome from '../Components/CarouselleHome'
 import Items from '../Components/Items'
 import Products from '../Components/Products'
 import Catalogue from '../Components/Catalogue'
+import Blog from '../Components/Blog'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Items />
         <Products />
         <Catalogue />
+        <Blog />
     </>
   )
 }
