@@ -1,0 +1,51 @@
+.cardsImage1{
+    background-image: url(./assets/images/cards1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cardsImage2{
+    background-image: url(./assets/images/cards2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cardsImage3{
+    background-image: url(./assets/images/cards3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cardsImage4{
+    background-image: url(./assets/images/cards4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cardsImage5{
+    background-image: url(./assets/images/cards5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cardsImage6{
+    background-image: url(./assets/images/cards6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imageCatalogue1 {
+    background-image: url(./assets/images/banner-08.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+
+.imageCatalogue2 {
+    background-image: url(./assets/images/shop-item-09.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
