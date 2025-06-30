@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-  shopy1,
   shopy2,
   shopy3,
   shopy4,
@@ -17,7 +16,7 @@ export default function Products() {
       id: 1,
       name: "Boxy1 T-Shirt with Roll Sleeve",
       price: "$20.00",
-      image: shopy1,
+      image: shopy8,
     },
     {
       id: 2,
