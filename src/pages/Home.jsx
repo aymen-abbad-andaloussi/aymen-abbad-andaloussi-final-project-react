@@ -5,6 +5,7 @@ import Items from '../Components/Items'
 import Products from '../Components/Products'
 import Catalogue from '../Components/Catalogue'
 import Blog from '../Components/Blog'
+import Follow from '../Components/Follow'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Products />
         <Catalogue />
         <Blog />
+        <Follow />
     </>
   )
 }
