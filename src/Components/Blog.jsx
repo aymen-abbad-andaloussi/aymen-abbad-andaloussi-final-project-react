@@ -1,7 +1,7 @@
 export default function Blog() {
   return (
     <div className="w-full h-[70vh] flex flex-col items-center ">
-      <h1 className="py-10 ">OUR BLOG</h1>
+      <h1 className="py-10 text-3xl font-semibold ">OUR BLOG</h1>
       <div className="w-[60vw] h-[100%] flex gap-[2rem] ">
         <div className="w-1/3 h-full ">
           <div className="w-full h-[30vh] blogImage1 "></div>
