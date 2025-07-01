@@ -10,57 +10,57 @@ import {
 } from "../assets/imagesFile/Images";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 
+export const products = [
+  {
+    id: 1,
+    name: "Boxy1 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy8,
+  },
+  {
+    id: 2,
+    name: "Boxy2 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy2,
+  },
+  {
+    id: 3,
+    name: "Boxy3 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy3,
+  },
+  {
+    id: 4,
+    name: "Boxy4 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy4,
+  },
+  {
+    id: 5,
+    name: "Boxy5 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy5,
+  },
+  {
+    id: 6,
+    name: "Boxy6 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy6,
+  },
+  {
+    id: 7,
+    name: "Boxy7 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy7,
+  },
+  {
+    id: 8,
+    name: "Boxy8 T-Shirt with Roll Sleeve",
+    price: "$20.00",
+    image: shopy8,
+  },
+];
 export default function Products() {
-  const products = [
-    {
-      id: 1,
-      name: "Boxy1 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy8,
-    },
-    {
-      id: 2,
-      name: "Boxy2 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy2,
-    },
-    {
-      id: 3,
-      name: "Boxy3 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy3,
-    },
-    {
-      id: 4,
-      name: "Boxy4 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy4,
-    },
-    {
-      id: 5,
-      name: "Boxy5 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy5,
-    },
-    {
-      id: 6,
-      name: "Boxy6 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy6,
-    },
-    {
-      id: 7,
-      name: "Boxy7 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy7,
-    },
-    {
-      id: 8,
-      name: "Boxy8 T-Shirt with Roll Sleeve",
-      price: "$20.00",
-      image: shopy8,
-    },
-  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsToShow = 4;

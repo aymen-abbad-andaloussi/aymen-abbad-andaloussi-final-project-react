@@ -67,3 +67,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.buttonAddCard{
+    z-index: -5;
+}
+
+.divAddCard:hover > .buttonAddCard{
+    z-index: 1;
+}
