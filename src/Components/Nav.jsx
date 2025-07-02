@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom"
-import { logoNav } from "../assets/imagesFile/Images"
-import Home from "../pages/Home"
-import { CgProfile } from "react-icons/cg"
-import { RiShoppingBagLine } from "react-icons/ri"
+import { Link } from "react-router-dom";
+import { logoNav } from "../assets/imagesFile/Images";
+import { CgProfile } from "react-icons/cg";
+import { RiShoppingBagLine } from "react-icons/ri";
 
 export default function Nav() {
   return (
@@ -11,19 +10,35 @@ export default function Nav() {
         <img src={logoNav} alt="logo image nav" className="" />
       </Link>
       <div className="flex items-center gap-10">
-        <Link to="/">Home</Link>
-        <Link to="/Shop">Shop</Link>
-        <Link to="/Sale">Sale</Link>
-        <Link to="/Features">Features</Link>
-        <Link to="/Blog">Blog</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link className="hover:text-red-700 transition-colors" to="/">
+          Home
+        </Link>
+        <Link className="hover:text-red-700 transition-colors" to="/Shop">
+          Shop
+        </Link>
+        <Link className="hover:text-red-700 transition-colors" to="/Sale">
+          Sale
+        </Link>
+        <Link className="hover:text-red-700 transition-colors" to="/Features">
+          Features
+        </Link> 
+        <Link className="hover:text-red-700 transition-colors" to="/Blog">
+          Blog
+        </Link>
+        <Link className="hover:text-red-700 transition-colors" to="/About">
+          About
+        </Link>
+        <Link className="hover:text-red-700 transition-colors" to="/Contact">
+          Contact
+        </Link>
       </div>
       <div className="flex items-center gap-8">
-        <CgProfile className="text-3xl text-gray-400 " />
+        <Link to="/Profile">
+          <CgProfile className="text-3xl text-gray-400 " />
+        </Link>
         <div className="h-6 w-[2px] bg-gray-300 "></div>
         <RiShoppingBagLine className="text-3xl text-gray-400 " />
       </div>
     </nav>
-  )
+  );
 }

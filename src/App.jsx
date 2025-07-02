@@ -9,6 +9,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PageError from "./pages/PageError";
 import DetailBlog from "./pages/DetailBlog";
+import Profile from "./pages/Profile";
+import Register from "./pages/Register";
+import CreatAccount from "./pages/CreatAccount";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Routes>
         <Route path="/*" element={<PageError />} />
         <Route path="/" element={<Home />} />
+        <Route path="/Profile" element={<Profile />} />
+        <Route path="/Register" element={<Register />} />
+        <Route path="/CreatAccount" element={<CreatAccount />} />
         <Route path="/Shop" element={<Shop />} />
         <Route path="/Sale" element={<Sale />} />
         <Route path="/Features" element={<Features />} />
