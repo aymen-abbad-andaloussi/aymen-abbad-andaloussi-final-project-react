@@ -12,10 +12,14 @@ import DetailBlog from "./pages/DetailBlog";
 import Profile from "./pages/Profile";
 import Register from "./pages/Register";
 import CreatAccount from "./pages/CreatAccount";
+import Button from "./Button";
+import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <>
+    <Nav />
       <Routes>
         <Route path="/*" element={<PageError />} />
         <Route path="/" element={<Home />} />
@@ -30,6 +34,8 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/DetailBlog" element={<DetailBlog />} />
       </Routes>
+      <Footer />
+      <Button />
     </>
   );
 }

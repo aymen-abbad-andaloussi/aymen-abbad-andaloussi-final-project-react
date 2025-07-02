@@ -9,6 +9,7 @@ import {
   shopy8,
 } from "../assets/imagesFile/Images";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 export const products = [
   {
@@ -98,11 +99,13 @@ export default function Products() {
                 style={{ width: `${100 / itemsToShow}%` }}
               >
                 <div className="bg-white rounded-lg h-full duration-300">
+                  <Link to="/Shop">
                   <img
                     src={product.image}
                     alt={product.name}
                     className="w-full h-[40vh] object-cover rounded duration-300"
                   />
+                  </Link>
                   <div className="p-2">
                     <h3 className="text-lg font-light text-gray-600 mt-2">{product.name}</h3>
                     <p className="text-gray-500">{product.price}</p>

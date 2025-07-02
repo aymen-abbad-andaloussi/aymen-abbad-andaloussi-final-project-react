@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Footer from "../Components/Footer";
-import Nav from "../Components/Nav";
 import Register from "./Register";
 import Signin from "../Components/Signin";
 import { FaAngleRight } from "react-icons/fa";
@@ -8,7 +6,6 @@ import { FaAngleRight } from "react-icons/fa";
 export default function Profile() {
   return (
     <>
-      <Nav />
       <div className="mt-[13vh] mb-10 flex text-black/60 text-sm items-center w-fit pl-12 gap-1">
         <Link className="hover:text-red-700 transition" to="/">
           Home
@@ -22,7 +19,6 @@ export default function Profile() {
         <Register />
         <Signin />
       </div>
-      <Footer />
     </>
   );
 }

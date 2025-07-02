@@ -9,7 +9,7 @@ export default function Nav() {
       <Link to={"/"} className="w-fit h-fit flex items-center">
         <img src={logoNav} alt="logo image nav" className="" />
       </Link>
-      <div className="flex items-center gap-10">
+      <div className="flex items-center gap-10 max-md:hidden ">
         <Link className="hover:text-red-700 transition-colors" to="/">
           Home
         </Link>
