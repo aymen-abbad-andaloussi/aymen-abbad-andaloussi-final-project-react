@@ -8,6 +8,7 @@ import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PageError from "./pages/PageError";
+import DetailBlog from "./pages/DetailBlog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/DetailBlog" element={<DetailBlog />} />
       </Routes>
     </>
   );

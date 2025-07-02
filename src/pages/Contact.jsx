@@ -1,3 +1,4 @@
+import CompContactEmailJs from "../Components/CompContactEmailJs";
 import CompContactMap from "../Components/CompContactMap";
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
@@ -8,8 +9,11 @@ export default function Contact() {
     <div>
       <Nav />
       <SectionTitleContact />
-      <CompContactMap />
+      <div className="flex gap-10 my-15 justify-center">
+        <CompContactMap />
+        <CompContactEmailJs />
+      </div>
       <Footer />
     </div>
-  )
+  );
 }

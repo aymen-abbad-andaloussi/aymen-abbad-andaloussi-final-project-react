@@ -4,9 +4,9 @@ import CarouselleHome from '../Components/CarouselleHome'
 import Items from '../Components/Items'
 import Products from '../Components/Products'
 import Catalogue from '../Components/Catalogue'
-import Blog from '../Components/Blog'
 import Follow from '../Components/Follow'
 import Footer from '../Components/Footer'
+import ComBlog from '../Components/ComBlog'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <Items />
         <Products />
         <Catalogue />
-        <Blog />
+        <ComBlog />
         <Follow />
         <Footer />
     </>
